@@ -28,4 +28,4 @@ jobs:
         with:
           token: ${{ secrets.ATFBOT_PAT }}
           release-type: terraform-module
-          package-name: release-please-action
+          signoff: "atfbot <contact@azure.tf>"
