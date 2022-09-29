@@ -27,13 +27,11 @@ content: |-
   ```
 
   {{ .Providers }}
-  
-  {{ .Modules }}
 
   {{ .Inputs }}
-  
+
   {{ .Outputs }}
-  
+
   {{ .Resources }}
 
 output:
