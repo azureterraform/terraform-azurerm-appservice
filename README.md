@@ -18,8 +18,8 @@ This module aims to be easy to use, flexible, while give the user the guidelines
 
 ```hcl
 module "appservice" {
-  #source = "azureterraform/appservice/azurerm"
-  source = "../"
+  source  = "azureterraform/appservice/azurerm"
+  version = "1.0.0"
 
   resource_group_name = azurerm_resource_group.example.name
   location            = azurerm_resource_group.example.location
@@ -28,9 +28,8 @@ module "appservice" {
   os_type = "Linux"
 
   service_plan = {
-    sku_name          = "B1"
-    worker_count      = 1
-    windows_container = true
+    sku_name     = "B1"
+    worker_count = 1
   }
 }
 ```
@@ -59,5 +58,7 @@ No outputs.
 
 | Name | Type |
 |------|------|
+| [azurerm_linux_web_app.main](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/linux_web_app) | resource |
 | [azurerm_service_plan.main](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/service_plan) | resource |
+| [azurerm_windows_web_app.main](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/windows_web_app) | resource |
 <!-- END_TF_DOCS -->
