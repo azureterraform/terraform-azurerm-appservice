@@ -29,4 +29,4 @@ jobs:
         with:
           token: ${{ secrets.ATFBOT_PAT }}
           release-type: terraform-module
-          signoff: "atfbot <contact@azure.tf>"
+          signoff: "atfbot <113607763+atfbot@users.noreply.github.com>"
