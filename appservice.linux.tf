@@ -7,3 +7,10 @@ resource "azurerm_linux_web_app" "main" {
 
   site_config {}
 }
+
+resource "azurerm_linux_web_app_slot" "main" {
+  name           = format("slot-%s", var.name)
+  app_service_id = azurerm_linux_web_app.main[0].id
+
+  site_config {}
+}
