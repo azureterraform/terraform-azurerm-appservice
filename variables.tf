@@ -27,6 +27,7 @@ variable "service_plan" {
     maximum_elastic_worker_count = optional(number)
     worker_count                 = optional(number)
     per_site_scaling_enabled     = optional(bool, false)
+    zone_balancing_enabled       = optional(bool, false)
   })
   validation {
     condition = contains([
