@@ -23,7 +23,7 @@ content: |-
   ## Example
 
   ```hcl
-  {{ include "examples/main.tf" }}
+  {{ include "examples/appservice.tf" }}
   ```
 
   {{ .Providers }}
