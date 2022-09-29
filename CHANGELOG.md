@@ -1,5 +1,23 @@
 # Changelog
 
+## [0.2.0](https://github.com/azureterraform/terraform-azurerm-appservice/compare/v0.1.0...v0.2.0) (2022-09-29)
+
+
+### Features
+
+* **app_slot:** added linux app slot ([dd74aa7](https://github.com/azureterraform/terraform-azurerm-appservice/commit/dd74aa77b5aca33b2288ca9077003cd0182db252))
+* **web-app:** initial code for web app ([eb4ee32](https://github.com/azureterraform/terraform-azurerm-appservice/commit/eb4ee32bca2f28ed5ffd32282ada696a3844b313))
+
+
+### Bug Fixes
+
+* **release-please:** sign off message ([f7ecb94](https://github.com/azureterraform/terraform-azurerm-appservice/commit/f7ecb941247288dd50dff9d8c6857fd19adef1b4))
+
+
+### Miscellaneous Chores
+
+* release 0.2.0 ([d874f6e](https://github.com/azureterraform/terraform-azurerm-appservice/commit/d874f6eca674ccc2f38a0854664e96247a31049e))
+
 ## 0.1.0 (2022-09-29)
 
 
