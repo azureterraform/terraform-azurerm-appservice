@@ -30,3 +30,4 @@ jobs:
           token: ${{ secrets.ATFBOT_PAT }}
           release-type: terraform-module
           signoff: "atfbot <113607763+atfbot@users.noreply.github.com>"
+          prerelease: true
